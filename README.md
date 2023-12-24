@@ -1,22 +1,13 @@
-# Turborepo kitchen sink starter
+# Multi-vendor E-commerce Web App
 
-This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
+A Multi-vendor E-commerce Web App, a platform where multiple sellers can showcase and sell their products in one centralized marketplace, offering customers a diverse range of choices.
 
-This example also shows how to use [Workspace Configurations](https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces).
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e kitchen-sink
-```
 
 ## What's inside?
 
-This Turborepo includes the following packages and apps:
+Optimize industry-level processes to ensure maintainability, scalability, cleanliness, and adherence to best practices.
 
-### Apps and Packages
+### Overview of floder strcture Apps
 
 - `api`: an [Express](https://expressjs.com/) server
 - `storefront`: a [Next.js](https://nextjs.org/) app
@@ -31,9 +22,10 @@ Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
-This Turborepo has some additional tools already setup for you:
+The utilities facilitate an efficient development process and ensure software quality
 
+- [Turborepo](https://turbo.build/repo) for monorepo environment
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
-- [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+- [Shadcn/UI](https://ui.shadcn.com/) for reusable ui component 
